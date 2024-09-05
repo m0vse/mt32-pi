@@ -14,6 +14,9 @@ USERBAUD?=115200
 # Enable section garbage collection
 GC_SECTIONS?=1
 
+# Enable on-board eMMC for non-"lite" Compute Module models
+USE_EMMC?=1
+
 # Compress the kernel
 GZIP_KERNEL?=1
 
